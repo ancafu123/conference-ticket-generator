@@ -160,7 +160,11 @@ button:hover{
     display: none;
 }
 
-@media (max-width:376px) {
+@media (max-width:400px) {
+    header{
+        justify-items: center;
+        margin-top: 30px;
+    }
     .titulo-desktop {
         display: none;
       }
