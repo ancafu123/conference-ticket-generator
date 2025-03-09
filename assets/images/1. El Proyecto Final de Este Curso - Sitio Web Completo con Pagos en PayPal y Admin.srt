@@ -1,0 +1,779 @@
+1
+00:00:00,420 --> 00:00:04,960
+En este vamos a ver el proyecto final que estaremos construyendo en este curso.
+
+2
+00:00:05,010 --> 00:00:09,330
+Siempre he creído que se aprende mucho más cuando realizas un proyecto de la vida real y este será el
+
+3
+00:00:09,330 --> 00:00:12,390
+proyecto que estaremos realizando.
+
+4
+00:00:12,390 --> 00:00:16,920
+Primero puedes ver la parte superior lo que viene siendo el Geer con una imagen de fondo muy grande
+
+5
+00:00:17,130 --> 00:00:21,630
+pero tenemos lo que viene siendo este nombre del sitio web estaremos construyendo un sitio web para
+
+6
+00:00:21,630 --> 00:00:27,210
+auges de la webcam que es una conferencia de diseño web la mejor conferencia Diseño Web.
+
+7
+00:00:27,210 --> 00:00:32,610
+Tenemos el lugar donde se encuentra con estos iconos de Photoshop y la fecha en la que será este evento.
+
+8
+00:00:32,610 --> 00:00:37,620
+Además del menú de redes sociales hacemos un poco de scroll tenemos la barra principal de navegación
+
+9
+00:00:37,620 --> 00:00:43,980
+podemos ir a las distintas secciones internas de esta página web así como el logotipo y todo esto será
+
+10
+00:00:43,980 --> 00:00:44,630
+responsivo.
+
+11
+00:00:44,630 --> 00:00:49,990
+Por ejemplo si lo voy a inspeccionar y lo voy a colocar a este lado puedes ver que el sitio web se adapta
+
+12
+00:00:50,010 --> 00:00:51,920
+correctamente y podemos dar clic aquí.
+
+13
+00:00:51,920 --> 00:00:57,540
+El menú cambia y podemos acceder a los distintos elementos desde el dispositivo móvil te mostrará cómo
+
+14
+00:00:57,540 --> 00:00:58,710
+crear todo esto.
+
+15
+00:00:58,860 --> 00:01:04,620
+Muy importante toda la parte visual también la parte de base de datos y PHP todo será código escrito
+
+16
+00:01:04,620 --> 00:01:11,490
+por nosotros nos tenemos utilizando ningún Framework entonces estaremos creando todo más que nada para
+
+17
+00:01:11,490 --> 00:01:17,660
+mostrarte cómo funciona cada una de las tecnologías que se incluyen en este curso por separado.
+
+18
+00:01:17,760 --> 00:01:23,160
+Si aprendes lo básico créeme este será muy fácil comenzar a trabajar con los Frend Works que hoy en
+
+19
+00:01:23,160 --> 00:01:30,060
+día después tenemos la mejor conferencia de diseño web un texto sobre la conferencia tenemos un poco
+
+20
+00:01:30,060 --> 00:01:35,730
+del programa de elementos tenemos mostrando dos seminarios dos conferencias y dos talleres vídeo de
+
+21
+00:01:35,730 --> 00:01:42,060
+fondo y puedes ver que por ejemplo se doy clic en conferencias me parece este filtrado o en talleres
+
+22
+00:01:42,060 --> 00:01:48,540
+y también me filtra los distintos eventos que van a pasar en esta conferencia de diseño web.
+
+23
+00:01:48,540 --> 00:01:55,110
+Si quieres puedes dar clic en Ver todos y eso te va a llevar a todos los eventos de la conferencia.
+
+24
+00:01:55,110 --> 00:01:59,910
+Muy importante mencionar que todo esto viene desde una base de datos estaremos creando un administrador
+
+25
+00:02:00,420 --> 00:02:04,410
+enseguida te lo voy a mostrar vamos a volver a la página principal.
+
+26
+00:02:04,520 --> 00:02:08,490
+Nota como lo que viene siendo el menú se queda atorado en la parte superior.
+
+27
+00:02:08,490 --> 00:02:12,900
+También te mostrará cómo crear un efecto que muchos clientes lo piden en su sitio web incluso si tienes
+
+28
+00:02:12,900 --> 00:02:18,720
+un proyecto lo podrás agregar en él para que se vea bastante bien a mi me gusta mucho tener un menú
+
+29
+00:02:18,720 --> 00:02:20,070
+fijo arriba.
+
+30
+00:02:20,070 --> 00:02:26,250
+Continuando tenemos nuestros invitados también la parte de los invitados su fotografía su nombre y su
+
+31
+00:02:26,250 --> 00:02:28,760
+biografía todo vienen desde la base de datos.
+
+32
+00:02:28,980 --> 00:02:34,380
+Puedes dar click aquí viene más información de esta persona su nombre lo que viene siendo su fotografía
+
+33
+00:02:34,410 --> 00:02:40,620
+y lo que viene siendo su biografía también y todos ellos de nueva cuenta vienen desde la base de datos.
+
+34
+00:02:40,950 --> 00:02:46,890
+Más abajo tenemos estos números que se animan una vez que lleguemos a esta zona y demos scroll.
+
+35
+00:02:46,920 --> 00:02:53,550
+Estos números animan dándonos un resumen de la conferencia 6 invitados 15 talleres 3 días y 9 conferencias
+
+36
+00:02:54,210 --> 00:03:01,170
+y más abajo tenemos una tabla de precios el pase por día de 30 todos los días que son tres cincuenta
+
+37
+00:03:01,710 --> 00:03:08,000
+y dos días por 45 y desde aquí los puedes comprar también las animaciones.
+
+38
+00:03:08,030 --> 00:03:10,090
+Esta parte te lleva a las reservaciones.
+
+39
+00:03:10,090 --> 00:03:16,320
+En ellas es donde los usuarios eligen qué boleto van a comprar y a qué conferencia se quieren inscribir
+
+40
+00:03:16,330 --> 00:03:19,560
+enseguida te estarán mostrando cómo funciona esa parte.
+
+41
+00:03:19,690 --> 00:03:21,790
+Si continuamos tenemos un mapa.
+
+42
+00:03:21,790 --> 00:03:27,910
+Este es un mapa de una aplicación que se llama Affleck debido a que Google Maps recientemente decidió
+
+43
+00:03:27,910 --> 00:03:34,630
+cobrar o pedir al menos una tarjeta de crédito para poder utilizar su API hemos migrado a un servicio
+
+44
+00:03:34,630 --> 00:03:38,800
+completamente gratuito y que funciona bastante bien bastante.
+
+45
+00:03:39,010 --> 00:03:40,700
+No le pide nada a Google Maps.
+
+46
+00:03:40,740 --> 00:03:43,630
+Entonces te mostré cómo integrarlo.
+
+47
+00:03:43,630 --> 00:03:48,670
+Después tenemos una parte de testimoniales estaremos creando todo el HTML CSS para darle esta apariencia
+
+48
+00:03:48,670 --> 00:03:54,850
+se ve bastante bien también si estás construyendo un portafolios muy seguramente quieres mostrar testimoniales
+
+49
+00:03:54,850 --> 00:03:58,080
+para que la gente conozca tus servicios.
+
+50
+00:03:58,090 --> 00:04:03,190
+También tenemos un registro al newsletter puedes darle clic aquí en registrar dejar tu correo electrónico
+
+51
+00:04:03,190 --> 00:04:08,390
+y eso lo va a conectar con un servicio llamado MailChimp y podremos ir construyendo una lista para el
+
+52
+00:04:08,410 --> 00:04:11,870
+newsletter recibir notificaciones o avisos sobre el evento.
+
+53
+00:04:11,890 --> 00:04:16,370
+Mostraré cómo integrar MailChimp también a tu servicio a tu página web.
+
+54
+00:04:16,540 --> 00:04:22,150
+Al igual que el servicio de mapas y un poco más adelante también PayPal un poco más abajo tenemos este
+
+55
+00:04:22,150 --> 00:04:28,330
+contador le hemos dado una fecha en la que inicia este evento y tenemos cuántos días cuántas horas cuántos
+
+56
+00:04:28,330 --> 00:04:32,170
+minutos incluso cuántos segundos faltan para que inicie la conferencia.
+
+57
+00:04:32,170 --> 00:04:38,050
+De esta forma tenemos más información a los visitantes para que sepan cuando inicia la parte inferior
+
+58
+00:04:38,050 --> 00:04:43,390
+te mostraré cómo agregar el widget de Twitter así como el menú de redes sociales y un poco de información
+
+59
+00:04:43,390 --> 00:04:44,920
+sobre nosotros.
+
+60
+00:04:44,920 --> 00:04:48,820
+Quiero mostrarte la parte de cómo funciona lo que es el administrador que estaremos creando.
+
+61
+00:04:49,210 --> 00:04:57,230
+Si damos clic derecho si abro esta R.L aparece un formulario para elogiar o iniciar sesión.
+
+62
+00:04:57,280 --> 00:05:02,800
+Voy a colocar aquí las credenciales que he puesto como ejemplo de que quiere iniciar sesión y aparece
+
+63
+00:05:02,800 --> 00:05:04,270
+esta notificación lo incorrecto.
+
+64
+00:05:04,270 --> 00:05:09,850
+Bienvenido JuanPablo y primero eso nos lleva a lo que es el dashboard un pequeño resumen con todo lo
+
+65
+00:05:09,850 --> 00:05:15,860
+que tenemos de registros tenemos una gráfica que nos dice cuántas personas se han ido registrando.
+
+66
+00:05:16,000 --> 00:05:19,990
+Estos son algunos registros de ejemplo tenemos un resumen de registros.
+
+67
+00:05:19,990 --> 00:05:23,220
+Por ejemplo tenemos total registrado son 22.
+
+68
+00:05:23,230 --> 00:05:30,340
+Nos han pagado 6 16 se quedaron sin pagar no completaron el proceso de PayPal y nuestras ganancias totales
+
+69
+00:05:30,340 --> 00:05:34,230
+son de 840 te mostraré cómo crear toda esta parte.
+
+70
+00:05:34,420 --> 00:05:41,170
+Después aparecen los regalos si vemos lo que es el formulario de reservaciones en la parte inferior
+
+71
+00:05:41,170 --> 00:05:45,190
+les estamos dando un regalo etiquetas pulsera o plumas.
+
+72
+00:05:45,190 --> 00:05:50,620
+Los usuarios eligen qué quieren recibir y en lugar de estar yendo por cada uno de los registros podemos
+
+73
+00:05:50,620 --> 00:05:57,160
+escribir un poco de código SQL para traer estos reportes y no tener que ir a cada uno de los registros.
+
+74
+00:05:57,190 --> 00:06:03,310
+Saber cuántos usuarios han pagado cuántos son nuestras ganancias y qué regalos han decidido tener para
+
+75
+00:06:03,310 --> 00:06:09,280
+mandar a hacer los regalos de nueva cuenta todo esto es código PHP todo está almacenado en una base
+
+76
+00:06:09,280 --> 00:06:09,700
+de datos.
+
+77
+00:06:09,700 --> 00:06:15,580
+Quiero mostrarte algo y es que si por ejemplo Toy scroll hacia arriba aquí tenemos a nuestros invitados
+
+78
+00:06:16,150 --> 00:06:22,600
+digamos que este personaxe más Juan Sánchez queremos cambiarle su nombre nos equivocamos está mal capturado
+
+79
+00:06:23,440 --> 00:06:29,030
+esquivamos si eran invitados y puedes dar clic en Ver todos entonces aquí aparece un resumen de todos
+
+80
+00:06:29,030 --> 00:06:36,730
+los invitados encontramos a Juan Sánchez aparece aquí su imagen puedo dar click aquí y cambiar por Juan
+
+81
+00:06:37,150 --> 00:06:43,230
+Pérez por ejemplo y también podemos cambiar su imagen te mostraré cómo crear este pequeño botón para
+
+82
+00:06:43,230 --> 00:06:50,190
+subir imágenes subir archivos lo que viene siendo PHP y SQL hecho para mostrarte cómo funciona voy a
+
+83
+00:06:50,190 --> 00:06:56,120
+hacer esto hacia un lado y voy a cargar una imagen nueva será una imagen de una mujer.
+
+84
+00:06:56,120 --> 00:07:04,970
+Entonces aquí vamos a ponerle la nueva imagen con el Carolina Pérez está bien y doy click en Añadir
+
+85
+00:07:05,260 --> 00:07:07,640
+además que ese se guardó correctamente.
+
+86
+00:07:07,640 --> 00:07:14,690
+Vamos que no volvemos a nuestros invitados y vemos que aparece Carolina pero también puedes ordenarlos
+
+87
+00:07:14,690 --> 00:07:21,430
+por geografía por nombre o por imagen entonces ver que aparece Carolina Pérez y aparece su imagen.
+
+88
+00:07:21,430 --> 00:07:27,680
+Nueva muestra de cómo hacer todo esto todos estos códigos PHP y SQL escrito por nosotros no utilizaremos
+
+89
+00:07:27,700 --> 00:07:34,790
+pringarse nuevamente y si recargamos lo que es la página principal aparece Yuri Herrera y también aparece
+
+90
+00:07:34,790 --> 00:07:37,220
+Carolina Pérez esta imágenes de Yauri.
+
+91
+00:07:37,220 --> 00:07:43,400
+Por eso se repite pero te muestra cómo crear todo este panel de administración en el que puedes cambiar
+
+92
+00:07:43,790 --> 00:07:50,060
+los eventos las categorías los invitados revisar qué personas están registradas e incluso crear nuevos
+
+93
+00:07:50,060 --> 00:07:51,660
+administradores.
+
+94
+00:07:51,710 --> 00:07:56,660
+Este es el listado de los que vienen siendo los invitados que hay pero puedes dar click aquí y agregar
+
+95
+00:07:56,660 --> 00:07:57,230
+nuevos.
+
+96
+00:07:57,230 --> 00:08:04,540
+Con el mismo formulario también puedes agregar distintos invitados nuevos a los que ya tenemos.
+
+97
+00:08:04,550 --> 00:08:07,300
+Tener un sitio web 100 por ciento ministrable.
+
+98
+00:08:07,440 --> 00:08:12,740
+Ahora vamos a ver los eventos calendario de eventos donde se irá a eventos y ver que tenemos ver todos.
+
+99
+00:08:12,830 --> 00:08:16,010
+Aquí tenemos un listado de todos los eventos que suceden ese día.
+
+100
+00:08:16,500 --> 00:08:24,580
+Entonces supongamos que dice angular 5 de momento ya va en la versión 7 vamos a cambiarlo.
+
+101
+00:08:24,800 --> 00:08:31,610
+Aquí ponemos angular 7 damos su nombre elegimos una categoría que tenemos tres las categorías también
+
+102
+00:08:31,610 --> 00:08:38,900
+las podemos administrar va a ser seminario La fecha está bien y digamos que de hora cambia a las 5 p.m.
+
+103
+00:08:40,270 --> 00:08:45,260
+y desde aquí podemos elegir el ponente quién la va a dar esta plática y esta parte está conectada con
+
+104
+00:08:45,260 --> 00:08:46,390
+invitados.
+
+105
+00:08:46,570 --> 00:08:50,230
+Si agregamos aquí estamos invitados esta parte se actualiza automáticamente.
+
+106
+00:08:51,190 --> 00:08:58,130
+Entonces el clic en Guardar y guardamos cambios y recargamos el calendario y vemos que ahora si se angular
+
+107
+00:08:58,130 --> 00:09:03,140
+7 y ha cambiado a las 5 de la tarde va a ser más grande esto otra vez.
+
+108
+00:09:03,290 --> 00:09:07,310
+Entonces como mencioné anteriormente las categorías de los eventos están conectadas puedes dar clic
+
+109
+00:09:07,440 --> 00:09:09,360
+en Agregar una nueva categoría.
+
+110
+00:09:09,530 --> 00:09:16,610
+Digamos que vamos a agregar una para workshops y aquí tenemos un listado de íconos aquí podemos seleccionar
+
+111
+00:09:16,610 --> 00:09:24,070
+el icono para esta categoría en específico vamos a poner cualquiera en realidad digamos que ésta que
+
+112
+00:09:24,110 --> 00:09:26,500
+tiene como unos engranes damos clic en Añadir.
+
+113
+00:09:26,500 --> 00:09:32,870
+Se agregó correctamente y si voy a eventos y agregar un nuevo evento en lo que vienen siendo las categorías
+
+114
+00:09:32,970 --> 00:09:39,290
+y aparece whatsapps toda esta parte está conectada y te mostraré cómo hacerlo todo con código escrito
+
+115
+00:09:39,290 --> 00:09:40,440
+por nosotros.
+
+116
+00:09:40,640 --> 00:09:43,630
+De la misma forma los invitados o ponentes puedes dar clic aquí.
+
+117
+00:09:43,630 --> 00:09:47,550
+Invitados agregar uno nuevo y voy a agregar aquí mi nombre.
+
+118
+00:09:48,590 --> 00:09:56,540
+Juan de la Torre instructor en Demy y no voy a colocar imagen porque no tengo ninguna lista de click
+
+119
+00:09:56,540 --> 00:10:02,330
+en Añadir vemos que se guarda correctamente y aquién en crear Evento ya podré seleccionar de mi categoría
+
+120
+00:10:02,330 --> 00:10:06,320
+de workshops que acabo de crear y también a los ponentes aparece Juan de la Torre.
+
+121
+00:10:06,320 --> 00:10:12,860
+Entonces toda esa parte 100 por ciento dinámica y cada evento que tengamos en esta parte y lo tengamos
+
+122
+00:10:12,860 --> 00:10:15,830
+en eventos lo podemos eliminar podemos verlos.
+
+123
+00:10:15,830 --> 00:10:22,040
+Podemos crear nuevos o podemos eliminarlos supongamos que queremos eliminar uno digamos este diseño
+
+124
+00:10:22,040 --> 00:10:35,660
+de interfases eventos ver todos y que el diseño de que parece interfases este lo da Susan Sanchez pero
+
+125
+00:10:35,880 --> 00:10:42,690
+aquí buscará el evento voy a cerrar estas ventanas dice Susan Sánchez Navas presionando este botón de
+
+126
+00:10:42,690 --> 00:10:43,710
+basura.
+
+127
+00:10:43,710 --> 00:10:50,160
+Nos pregunta si estamos seguros para eliminarlo vamos que si hemos eliminado registro eliminado y recargamos
+
+128
+00:10:50,160 --> 00:10:55,960
+en lo que es el front end y vemos que se ha ido ese registro tenemos otras secciones en el sitio web
+
+129
+00:10:55,990 --> 00:11:01,600
+por ejemplo conferencia tiene una serie de imágenes utilizando un plugin llamado Lightbox podemos agregar
+
+130
+00:11:01,600 --> 00:11:08,410
+este pequeño efecto para ver una imagen más grande se ve bastante bien en invitados es lo mismo que
+
+131
+00:11:08,410 --> 00:11:14,620
+tenemos en el frontón y finalmente lo más importante es la parte de reservaciones.
+
+132
+00:11:14,620 --> 00:11:20,100
+Es en esta página en la que los usuarios van a elegir los días que quieren pagar.
+
+133
+00:11:20,150 --> 00:11:23,510
+Tenemos paquetes para un día para dos días o para los tres días.
+
+134
+00:11:23,510 --> 00:11:29,750
+Van a colocar su nombre su apellido y su correo del listado de conferencias lo van a elegir en base
+
+135
+00:11:29,750 --> 00:11:31,850
+a los días que han decidido comprar.
+
+136
+00:11:31,850 --> 00:11:36,440
+También estamos vendiendo algunos productos y estamos dándoles un regalo.
+
+137
+00:11:36,440 --> 00:11:39,870
+Y finalmente tienen que realizar el pago por medio de PayPal.
+
+138
+00:11:39,950 --> 00:11:44,860
+Vamos a realizarlo aquí para ver no tenemos registro de usuarios aquí se nombre si esto lo dejas vacío
+
+139
+00:11:44,870 --> 00:11:50,660
+aparece este campo es obligatorio para mostrarte cómo validar un formulario si que va a poner.
+
+140
+00:11:50,660 --> 00:11:57,730
+Juan de la Torre y voy a colocar aquí un correo cualquiera no importa que no importa por el ejemplo
+
+141
+00:11:57,730 --> 00:12:03,870
+que estamos elaborando pero obviamente en este correo estaremos enviándoles avisos a los usuarios.
+
+142
+00:12:03,940 --> 00:12:08,590
+Después tenemos elige el número de boletos tenemos pase por un día pasé por los tres días o por dos
+
+143
+00:12:08,590 --> 00:12:10,500
+días con lo que incluye cada uno.
+
+144
+00:12:10,720 --> 00:12:15,700
+Por ejemplo el pase por un día puedo hacer click aquí y vemos que puedo reservar los eventos del día
+
+145
+00:12:15,700 --> 00:12:21,820
+lunes puedo volver y vemos que desaparece o incluso aquí viene el de dos días para darle clic aquí para
+
+146
+00:12:21,820 --> 00:12:26,550
+que aparezca uno aparecen los lunes y los del martes o el de todos los días.
+
+147
+00:12:26,550 --> 00:12:32,680
+Puedo dar clic aquí aparecen lunes martes y miércoles los tres días puedo elegir eventos para mantenerlo
+
+148
+00:12:32,680 --> 00:12:34,920
+simple a unos elegidos.
+
+149
+00:12:36,730 --> 00:12:41,710
+Boletos por ejemplo vamos a comenzar a elegir toda esta parte que ves aquí.
+
+150
+00:12:41,710 --> 00:12:49,450
+Todo esto viene de nueva cuenta desde el administrador todos los eventos está conectado con esta parte.
+
+151
+00:12:49,450 --> 00:12:56,680
+Si agregas nuevos eventos se reflejan aquí si los eliminas se reflejan aquí también si recuerdas previamente
+
+152
+00:12:56,680 --> 00:13:01,780
+mostré en el calendario que habíamos eliminado un evento de aquí porque teníamos seis ya nada más tenemos
+
+153
+00:13:01,780 --> 00:13:02,210
+cinco.
+
+154
+00:13:02,220 --> 00:13:07,880
+Aquí siguen apareciendo cinco entonces estás conectado toda esta parte con la base de datos no elejir
+
+155
+00:13:07,930 --> 00:13:14,140
+por ejemplo aquí algunos algunas conferencias y después viene la parte de pagos y extras.
+
+156
+00:13:14,140 --> 00:13:21,400
+Aquí nos venden una camiseta del evento puedes elegir una cantidad digamos dos camisetas un paquete
+
+157
+00:13:21,610 --> 00:13:28,630
+de etiquetas etiquetas de las tecnologías que quiero uno de esos y nos dan un regalo si doy click en
+
+158
+00:13:28,630 --> 00:13:33,970
+calcular o vemos que dice debes elegir un regalo si el regalo es obligatorio y digamos que quiero elegir
+
+159
+00:13:33,970 --> 00:13:40,600
+una pluma de clic en calcular aparece cuánto debo pagar con un pequeño resumen y doy clic en pagar.
+
+160
+00:13:40,690 --> 00:13:47,220
+Al realizar este pago me lleva a lo que es la página de Paypal puedes ver que aparece la página de PayPal
+
+161
+00:13:47,490 --> 00:13:54,120
+y voy a mostrarte algo más si vamos a quedar registrados doy clic en Ver todos los filtros por la fecha
+
+162
+00:13:54,120 --> 00:13:59,430
+de registro para tener los últimos puedes ver que mi registro que estoy haciendo de 110 dólares es el
+
+163
+00:13:59,430 --> 00:14:05,820
+que estamos haciendo ahorita con las conferencias que he elegido que son tres dicen no pagado entonces
+
+164
+00:14:05,820 --> 00:14:11,090
+tenemos que ir a PayPal y aquí nada más le voy a dar continuar procesa el pago de PayPal.
+
+165
+00:14:11,100 --> 00:14:17,340
+Revisa que yo tengo fondos y si es correcto me aparece el pago se realizó correctamente y me da una
+
+166
+00:14:17,340 --> 00:14:23,850
+idea hago estaremos utilizando PayPal para comprobar que este pago es real real y se hizo correctamente
+
+167
+00:14:24,180 --> 00:14:29,450
+y si recargo nuevamente y Los ordeno por la fecha de registro puedes ver que aparece mi registro ahora
+
+168
+00:14:29,460 --> 00:14:34,650
+como parados tenemos comprobando y enviando una petición al servidor de PayPal para que nos diga si
+
+169
+00:14:34,650 --> 00:14:36,700
+esta persona en realidad pagó.
+
+170
+00:14:36,740 --> 00:14:41,940
+Aquí puedes eliminar los registros editarlos en caso de que alguien después llegue oye yo quisiera cambiar
+
+171
+00:14:41,940 --> 00:14:43,530
+mi conferencia etcétera.
+
+172
+00:14:43,530 --> 00:14:48,950
+Toda esta parte la puedes hacer aquí pero puedes ver que tenemos esta parte 100 por ciento funcionar
+
+173
+00:14:48,960 --> 00:14:54,300
+y las personas pueden reservar lo que vienen siendo sus conferencias pero también pueden comprar algunos
+
+174
+00:14:54,300 --> 00:15:01,450
+artículos algo que quiero mostrarte es que esta persona por ejemplo pagó 110 dólares y eligió plumas.
+
+175
+00:15:01,560 --> 00:15:06,550
+Si vamos de vuelta a lo que es el dashboard claudiquen dadas por el número de las ganancias totales
+
+176
+00:15:06,590 --> 00:15:11,850
+es mayor y las plumas aparecen en 12 aparecen en dos porque si vemos los registros y aquí le ponemos
+
+177
+00:15:12,120 --> 00:15:19,470
+por regalo tenemos plumas 1 y 2 entonces no hay necesidad como que si esperamos mil visitantes estar
+
+178
+00:15:19,470 --> 00:15:22,920
+viendo quienes eligieron plumas tenemos este resumen que aquí viene.
+
+179
+00:15:23,310 --> 00:15:29,070
+Cuántas personas han elegido plumas cuántas etiquetas y cuántas pulseras puedes ver el total de parados
+
+180
+00:15:29,070 --> 00:15:35,760
+también cambia 7 y nuestra gráfica también incrementa estaremos creando este panel de resumen y te mostraré
+
+181
+00:15:35,760 --> 00:15:37,530
+también cómo hacerlo.
+
+182
+00:15:37,530 --> 00:15:47,490
+El curso incluye siete tecnologías de desarrollo web HTML5 CSS3 JavaScript AJAX PHP y Meucci.
+
+183
+00:15:47,910 --> 00:15:52,570
+Todo el código que ves aquí los tenemos creando nosotros salvo en la parte del administrador que es
+
+184
+00:15:52,570 --> 00:15:55,930
+ésta la que incorporaremos una Libéré llamada admin LTI.
+
+185
+00:15:56,460 --> 00:16:01,380
+El curso describiremos todo el código como mencioné anteriormente no estaremos utilizando frameworks
+
+186
+00:16:01,380 --> 00:16:03,670
+como vostra ni como Arabel.
+
+187
+00:16:03,810 --> 00:16:09,150
+Nada en contra de los gringos como siempre digo pero si aprendes lo básico el día que decidas comenzar
+
+188
+00:16:09,150 --> 00:16:12,690
+a aprender un framework te va a ser mucho más sencillo.
+
+189
+00:16:12,690 --> 00:16:18,150
+La idea de este curso es que te conviertas en un desarrollador web profesional que domine las distintas
+
+190
+00:16:18,150 --> 00:16:24,730
+tecnologías y creéme con este proyecto que estás construyendo aquí y se lo muestras a un posible empleador.
+
+191
+00:16:24,750 --> 00:16:30,030
+Existen grandes posibilidades de obtener un empleo en esta industria para obtener un trabajo en esta
+
+192
+00:16:30,030 --> 00:16:35,760
+industria no es necesario tener un título pero sí se necesita saber cómo escribir código y a lo largo
+
+193
+00:16:35,760 --> 00:16:42,000
+del curso estaremos escribiendo literalmente miles de líneas de código así que espero verte en el en
+
+194
+00:16:42,000 --> 00:16:46,440
+los próximos videos puedes ver los otros proyectos que estaremos construyendo son dos más.
+
+195
+00:16:46,530 --> 00:16:49,290
+Espero que sean de tu agrado y verte en el curso.

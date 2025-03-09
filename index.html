@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Conference ticket generator</title>
+</head>
+<body >
+  <header>
+    <img src="/assets/images/logo-full.svg" alt="logo-full" width="150px">
+    <p>Coding Cof</p>
+  </header>
+  <main>
+    <section class="welcome">
+      <h1 class="titulo-desktop">Your Journey to Coding Conf <br> 2025 Starts Here!</h1>
+      <h1 class="titulo-mobile"> Your Journey to Coding Conf 2025 Starts Here!</h1>
+
+      <p>Secure your spot at next year's biggest coding conference.</p>
+    </section>
+
+    <section class="formulario">
+      <form>
+        <fieldset>
+          <label for="avatar">
+          <p>Upload Avatar</p>
+          <div>
+            <img src="/assets/images/icon-upload.svg" alt="avatar del usuario" id="imagen">
+            <p>Drag and drop or click to upload</p>
+            <input type="file" id="avatar" name="avatar" accept="image/*" onchange="reemplazarImagen(event)"  hidden>
+          </div>
+          <legend>
+            <img src="/assets/images/icon-info.svg" alt="icon-avatar">
+            <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+          </legend>
+          </label>
+
+          <label for="full_name">
+            <p>Full Name</p>
+            <input type="text" name="full_name" id="full_name" class="input-text">
+          </label>
+
+          <label for="email">
+            <p>Email Address</p>
+            <input type="email" name="email" id="email" class="input-text">
+          </label>
+
+          <label for="github" >
+            <p>GitHub Username</p>
+            <input type="text" name="github" id="github" class="input-text">
+          </label>
+          <button type="submit">Generate my Ticket </button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+  <footer>
+  </footer> 
+</body>
+</html>
