@@ -29,32 +29,36 @@
         <fieldset>
           <label for="avatar">
           <p>Upload Avatar</p>
-          <div>
-            <img src="/assets/images/icon-upload.svg" alt="avatar del usuario" id="imagen">
+          <div class="input_file">
+            <img src="/assets/images/icon-upload.svg" alt="avatar del usuario" class="imagen" id="upload_avatar">
             <p>Drag and drop or click to upload</p>
-            <input type="file" id="avatar" name="avatar" accept="image/*" onchange="reemplazarImagen(event)"  hidden>
+            <input type="file" id="avatar" name="avatar" accept=".png,.jpg" hidden>
           </div>
           <legend>
             <img src="/assets/images/icon-info.svg" alt="icon-avatar">
-            <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+            <p id="indicacion">Upload your photo (JPG or PNG, max size: 500KB).</p>
           </legend>
+          <small class="form-error" id="avatar-error">Please upload a image.</small>
           </label>
 
           <label for="full_name">
             <p>Full Name</p>
             <input type="text" name="full_name" id="full_name" class="input-text">
+            <small class="form-error" id="name-error">Full name is required.</small>
           </label>
 
           <label for="email">
             <p>Email Address</p>
             <input type="email" name="email" id="email" class="input-text">
+            <small class="form-error" id="email-error">Enter a valid email address.</small>
           </label>
 
           <label for="github" >
             <p>GitHub Username</p>
             <input type="text" name="github" id="github" class="input-text">
+            <small class="form-error" id="github-error">GitHub username is required.</small>
           </label>
-          <button type="submit">Generate my Ticket </button>
+          <button id="boton" type="submit">Generate my Ticket </button>
         </fieldset>
       </form>
     </section>
