@@ -31,7 +31,11 @@
           <p>Upload Avatar</p>
           <div class="input_file">
             <img src="/assets/images/icon-upload.svg" alt="avatar del usuario" class="imagen" id="upload_avatar">
-            <p>Drag and drop or click to upload</p>
+            <p id="file_instructions">Drag and drop or click to upload</p>
+            <div class="botones">
+              <button id="remove" hidden >Remove image</button>
+              <button id="change" hidden>Change image</button>
+            </div>
             <input type="file" id="avatar" name="avatar" accept=".png,.jpg" hidden>
           </div>
           <legend>
@@ -49,16 +53,16 @@
 
           <label for="email">
             <p>Email Address</p>
-            <input type="email" name="email" id="email" class="input-text">
+            <input placeholder="example@email.com" type="email" name="email" id="email" class="input-text">
             <small class="form-error" id="email-error">Enter a valid email address.</small>
           </label>
 
           <label for="github" >
             <p>GitHub Username</p>
-            <input type="text" name="github" id="github" class="input-text">
+            <input placeholder="@yourusername" type="text" name="github" id="github" class="input-text">
             <small class="form-error" id="github-error">GitHub username is required.</small>
           </label>
-          <button id="boton" type="submit">Generate my Ticket </button>
+          <button class="generate_ticket" id=boton type="submit">Generate my Ticket </button>
         </fieldset>
       </form>
     </section>

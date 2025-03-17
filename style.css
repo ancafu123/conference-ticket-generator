@@ -110,6 +110,13 @@ fieldset {
     background-color: rgba(122, 122, 122, 0.35);
 }
 
+.input-text::placeholder{
+    font-family: var(--fuente);
+    color: #ffffff82;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
 .input_file{
     max-width: 100%;
     width: 25rem;
@@ -141,7 +148,19 @@ label{
     gap: 10px;
 }
 
-button{
+#remove, #change{
+    font-family: var(--fuente);
+    font-size: 0.7rem;
+    width: 80px;
+    height: 18px;
+    background-color: rgba(122, 122, 122, 0.298);
+    border: none;
+    color: #ffffffb6;
+    border-radius: 3px;
+}
+
+
+.generate_ticket{
     width: 400px;
     height: 45px;
     border-radius: 10px;
@@ -152,7 +171,7 @@ button{
     transition: 0.5s;
 }
 
-button:hover{
+.generate_ticket:hover{
     background-color: hsl(7, 71%, 60%);
     cursor: pointer;
     transition: 0.8s;
@@ -204,7 +223,7 @@ button:hover{
         align-content: center;
     }
 
-    button{
+    .generate_ticket{
         width: 20.313rem;
         height: 2.813rem;
         border-radius: 10px;
@@ -224,10 +243,14 @@ button:hover{
 
 .ticket_congrats{
     margin: 30px 60px 60px 60px;
+    gap:30px;
 }
 .ticket_congrats > p {
     font-size: 1.2rem;
     text-align: center;    
+}
+#ticket_email{
+    color:hsl(7, 61%, 72%);
 }
 
 
@@ -292,7 +315,7 @@ button:hover{
     font-size: 2.3rem;
 }
 .ticket_date > p {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-weight: 300;
     color: #ffffffc8;
 }
@@ -322,6 +345,8 @@ button:hover{
     align-items: center;
     flex-direction: column;
     align-items: baseline;
+    gap: 10px;
+    padding-top: 8px;
    
 }
 .ticket_data >span{
@@ -342,6 +367,19 @@ button:hover{
 }
 
 @media (max-width:500px) {
+    .ticket_congrats{
+        margin: 30px 0px 60px 0px;
+    }
+    .ticket_congrats > h1{
+        font-size: 2.3rem;
+        max-width: 90%;
+    }
+
+    .ticket_congrats > p {
+        font-size: 1rem;
+        text-align: center;
+        max-width: 90%;    
+    }
     .ticket {   
         max-width: 90%; 
     }
@@ -369,13 +407,14 @@ button:hover{
         font-size: 1.5rem;
     }
     .ticket_date > p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     
     .ticket_footer{
         top:0px;
-        gap:10px
+        gap:10px;
+    
     }
 
    
@@ -386,6 +425,7 @@ button:hover{
    
     .ticket_data{
         gap: 5px;
+        padding-top: 0px;
     }
     .ticket_data >span{
         font-size: 1.15rem;
@@ -403,4 +443,4 @@ button:hover{
     }
     
 
-}
+    }

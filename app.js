@@ -3,10 +3,14 @@ const avatar = document.getElementById("avatar");
 const boton = document.getElementById("boton");
 const indicacion = document.getElementById("indicacion");
 
+const file_instructions = document.getElementById("file_instructions");
+const change = document.getElementById("change");
+const remove = document.getElementById("remove");
+
+
 const mensajeOriginal = indicacion.innerHTML;
 
 const limite = 500 * 1024;
-
 
 avatar.addEventListener("input", ()=>{
   const fileInput = avatar;
@@ -29,9 +33,34 @@ avatar.addEventListener("input", ()=>{
     else{reader.readAsDataURL(file);
       indicacion.innerHTML = mensajeOriginal;
     }
+    file_instructions.style.display = "none";
+    change.removeAttribute("hidden", true);
+    remove.removeAttribute("hidden", true);
+
   }
-  else{indicacion.innerHTML = `<p style="color: red">❌ Solo se permiten imágenes (JPG o PNG).</p>`}
+
+  else if(!file.startsWith('image/')) {
+    indicacion.innerHTML = `<p style="color: red">❌ Solo se permiten imágenes (JPG o PNG).</p>`
+  }
+  
+  else{
+    indicacion.innerHTML = mensajeOriginal;
+  }
 })
+
+remove.addEventListener("click", async(e)=>{
+    e.preventDefault();
+    const uploadIcon = document.querySelector("#upload_avatar");
+    uploadIcon.src = "/assets/images/icon-upload.svg"
+
+})
+
+change.addEventListener("click", (e)=>{
+  e.preventDefault()
+  avatar.click();
+}
+)
+
 
 form.addEventListener("submit", async(e)=>{
   e.preventDefault();
