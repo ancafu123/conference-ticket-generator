@@ -1,4 +1,12 @@
-const name = localStorage.getItem("name");
-const congrats_name = document.getElementById("congrats_name");
+let name = localStorage.getItem("name");
+let avatar = localStorage.getItem("avatar");
 
-congrats_name.innerText = name;
+let congrats_name = document.querySelectorAll("span");
+let image_avatar = document.getElementById("avatar");
+
+
+congrats_name.forEach(element => {
+    element.innerText = name;
+});
+
+image_avatar.setAttribute("src", avatar);

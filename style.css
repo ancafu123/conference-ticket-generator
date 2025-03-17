@@ -161,7 +161,7 @@ button:hover{
     display: none;
 }
 
-@media (max-width:1081px) {
+@media (max-width:400px) {
     header{
         justify-items: center;
         margin-top: 30px;
@@ -238,3 +238,169 @@ button:hover{
  }
 
 
+.ticket {
+    position: relative;
+    background-image: url(assets/images/pattern-ticket.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    aspect-ratio: 16/9;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: baseline;
+    
+}
+
+.ticket_info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 2rem;
+    
+}
+
+.ticket_header{
+    width: 90%;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 30px;
+    gap: 20px;
+}
+
+.ticket_title{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+}
+.ticket_title > img{
+    width: 40px;
+}
+
+.ticket_date{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    justify-content: end;
+    gap:15px;
+    top: 10px;
+}
+.ticket_date > h3{
+    font-size: 2.3rem;
+}
+.ticket_date > p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffffc8;
+}
+
+
+
+
+
+
+.ticket_footer{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+    top:25px;
+    
+}
+
+.ticket_avatar > img{
+    width: 80px;
+    border-radius: 14px;
+}
+
+.ticket_data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: baseline;
+   
+}
+.ticket_data >span{
+    font-size: 1.7rem;
+    font-weight: 400;
+  
+}
+
+.ticket_github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px; 
+}
+.ticket_github > p{
+    font-weight: 300;
+    font-size: 1.15rem;
+}
+
+@media (max-width:500px) {
+    .ticket {   
+        max-width: 90%; 
+    }
+
+    .ticket_info{
+        gap: 30px;
+        padding-left: 1.3rem;
+        
+      
+    }
+    .ticket_header{
+        bottom: 10px;
+        gap: 10px;
+        padding-top: 15px;
+    }
+    .ticket_title > img{
+        width: 30px;}
+
+    .ticket_date{
+        gap: 5px;
+        top:0;
+    }
+
+    .ticket_date > h3{
+        font-size: 1.5rem;
+    }
+    .ticket_date > p {
+        font-size: 0.8rem;
+    }
+
+    
+    .ticket_footer{
+        top:0px;
+        gap:10px
+    }
+
+   
+    .ticket_avatar > img{
+        width: 50px;
+        border-radius: 9px;
+    }
+   
+    .ticket_data{
+        gap: 5px;
+    }
+    .ticket_data >span{
+        font-size: 1.15rem;
+
+    }
+
+    .ticket_github{
+        gap: 5px; 
+    }
+    .ticket_github > img{
+        width: 15px;
+    }
+    .ticket_github > p{
+        font-size: 0.8rem;
+    }
+    
+
+}
