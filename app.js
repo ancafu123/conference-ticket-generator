@@ -28,30 +28,44 @@ avatar.addEventListener("input", ()=>{
 
     if(file.size > limite){
       indicacion.innerHTML = `<p style="color: yellow" >⚠️ The image exceeds the allowed size<p>`;
+      avatar.value = "";
+      
     }
 
     else{reader.readAsDataURL(file);
       indicacion.innerHTML = mensajeOriginal;
+      file_instructions.style.display = "none";
+      change.removeAttribute("hidden", true);
+      remove.removeAttribute("hidden", true);
     }
-    file_instructions.style.display = "none";
-    change.removeAttribute("hidden", true);
-    remove.removeAttribute("hidden", true);
+  
 
   }
 
   else if(!file.startsWith('image/')) {
     indicacion.innerHTML = `<p style="color: red">❌ Solo se permiten imágenes (JPG o PNG).</p>`
+    avatar.value = "";
   }
   
   else{
     indicacion.innerHTML = mensajeOriginal;
+    file_instructions.style.display = "none";
+    change.removeAttribute("hidden", true);
+    remove.removeAttribute("hidden", true);
   }
 })
 
-remove.addEventListener("click", async(e)=>{
+remove.addEventListener("click", (e)=>{
     e.preventDefault();
+    avatar.value = '';
     const uploadIcon = document.querySelector("#upload_avatar");
     uploadIcon.src = "/assets/images/icon-upload.svg"
+
+    indicacion.innerHTML = mensajeOriginal;
+
+    file_instructions.style.display = "block";
+    change.setAttribute("hidden", true);
+    remove.setAttribute("hidden", true);
 
 })
 
