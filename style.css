@@ -256,7 +256,7 @@ label{
 
 #ticket_name {
     background: linear-gradient(90deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;   
  }
 
